@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root{
+ --f7-theme-color:#E65050;
+ --f7-navbar-bg-color:#E65050;/*navbar*/
+ --f7-navbar-link-color:#fff;
+ --f7-navbar-text-color:#fff;
+ --f7-bars-bg-color:#E65050;/*toolbar*/
+ --f7-block-margin-vertical:20px;
+ --f7-card-footer-border-color:transparent; 
+}
+#app{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+#info-panel{
+	background-color: #E65050;
+	color: #fff;
+	padding: 35px 30px;
+}
+#info-panel img{
+	border-radius: 15%;
+}
+#main-hero .row{
+	padding: 10px 0;
+}
+#main-hero img{
+	border-radius: 15%;
+}
+.title{
+	font-family: 'Pacifico', cursive;
+}
+.block{
+	border-size: 20px;
+}
+.panel i{
+	color: #B81A1A;
+}
+.panel .list{
+	font-size: 14px;
+}
+.img-fluid{
+	max-width: 100%;
+	display: block;
+}
+#notificaciones-hero li{
+	padding: 10px;
+}
+.list img{
+	border-radius: 100%;
+}
+#checkout .card-content{
+	padding: 10px 5px;
+}
+#checkout .titulo{
+	font-weight: 600;
+	font-size: 16px;
+}
+hr{
+	border-top: 1px solid #eee;
+	margin: 20px 0;
+}
+#modal-login .page{
+	background-image: url("../img/Fondo_2.jpeg");
+	padding: 15px;
+}
+#modal-login .page-content{
+	border-radius: 15px;
+}
+#subir-hero{
+	text-align: center;
+}
+#subir-hero .card-header{
+	text-align: center;
+}
+#subir-hero .card-content{
+	padding: 60px 0;
+}
+#perfil-hero img{
+	padding: 20px 15px;
+	border-radius: 100%;
+	text-align: center;
+}
+#perfil-hero .card-content{
+	padding: 5px 0;
+}
+#perfil-hero .titulo{
+	padding-bottom: -15px;
+}
